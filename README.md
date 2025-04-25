@@ -36,8 +36,8 @@ O Projeto API Pix é uma solução completa para integração com o sistema de p
 
 1. Clone o repositório
    ```bash
-   git clone https://git.emater.tche.br/sistemas/api-pix.git
-   cd api-pix
+   git clone git@github.com:felipescholl/API_PIX.git
+   cd API_PIX
    ```
 
 2. Instale as dependências:
