@@ -3,8 +3,8 @@
 # API Pix 
 # Emater 🔄 Sicredi 🔄 Sênior
 
-[![Laravel](https://img.shields.io/badge/Laravel-10.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com)
-[![PHP](https://img.shields.io/badge/PHP-8.1+-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://php.net)
+[![Laravel](https://img.shields.io/badge/Laravel-11.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com)
+[![PHP](https://img.shields.io/badge/PHP-8.2+-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://php.net)
 [![SQL Server](https://img.shields.io/badge/SQL%20Server-2017-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
 [![License](https://img.shields.io/badge/Licença-MIT-green?style=for-the-badge)](LICENSE)
 
@@ -27,10 +27,10 @@ O Projeto API Pix é uma solução completa para integração com o sistema de p
 
 ## 🔧 Requisitos do Sistema
 
-- PHP 8.1 ou superior
+- PHP 8.2 ou superior
 - Composer 2.x
 - SQL Server 17+
-- Laravel 10.x
+- Laravel 11.x
 
 ## 🚀 Instalação
 
