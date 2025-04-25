@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ematerrs/api-pix:2.0-Prod
+    container_name: api_pix
+    restart: always
+    ports:
+      - "8000:8000"
+    # volumes:
+    #- ./database/database.sqlite:/var/www/html/database/database.sqlite  # Persistência do SQLite
+    volumes:
+      - ./storage/logs:/var/www/html/storage/logs  # Persistência dos logs do Laravel
+    env_file:
+      - .env.docker
+    # As variáveis de ambiente agora são carregadas do arquivo .env.docker
+    # Você pode sobrescrever variáveis específicas aqui se necessário
+    environment:
+      - APP_ENV=local
+    extra_hosts:
+      - "host.docker.internal:host-gateway"  # Garante que host.docker.internal funcione em todos os sistemas
+    command: php artisan serve --host=0.0.0.0 --port=8000
