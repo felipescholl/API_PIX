@@ -36,7 +36,7 @@ O Projeto API Pix é uma solução completa para integração com o sistema de p
 
 1. Clone o repositório
    ```bash
-   git clone git@github.com:felipescholl/API_PIX.git
+   git clone https://github.com/felipescholl/API_PIX.git
    cd API_PIX
    ```
 
